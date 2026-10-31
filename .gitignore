@@ -1,0 +1,38 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Build files
+build/
+dist/
+*.spec
+
+# Installer
+installer/Output/
+*.exe
+
+# Downloads
+downloads/*
+!downloads/.gitkeep
+
+# Personal data
+storage/history.json
+storage/settings.json
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# FFmpeg binaries
+bin/ffmpeg.exe
+bin/ffprobe.exe
